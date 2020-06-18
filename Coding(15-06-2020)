@@ -1,0 +1,14 @@
+defreverseBits(n):
+rev=0
+#traversingbitsof'n'fromtheright
+while(n>0):
+#bitwiseleftshift'rev'by1
+rev=rev<<1
+#ifcurrentbitis'1'
+if(n&1==1):
+rev=rev^1
+#bitwiserightshift'n'by1
+n=n>>1
+returnrev
+n=11
+print(reverseBits(n))
