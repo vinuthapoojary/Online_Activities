@@ -1,0 +1,6 @@
+my_str="HelloWorld"
+words=my_str.split()
+words.sort()
+print("Thesortedwordsare:")
+forwordinwords:
+print(word)
