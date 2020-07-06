@@ -1,0 +1,11 @@
+fname=input("Enterfilename:")
+k=0
+withopen(fname,'r')asf:
+forlineinf:
+words=line.split()
+foriinwords:
+forletterini:
+if(letter.isspace):
+k=k+1
+print("Occurrencesofblankspaces:")
+print(k)
